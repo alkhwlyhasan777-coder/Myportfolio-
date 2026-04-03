@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Al-Khwlyhasan | Front-End Developer Portfolio</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style-dark.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- ==================== HEADER / NAVBAR ==================== -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="navbar-container">
+                <div class="logo">
+                    <a href="#home">
+                        <i class="fas fa-code"></i>
+                        <span>Al-Khwly</span>
+                    </a>
+                </div>
+                <button class="hamburger" id="hamburger" title="button">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#services" class="nav-link">Services</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+                <!-- Dark Mode Toggle Button -->
+                <button class="dark-mode-toggle" id="darkModeToggle" title="Toggle Dark Mode">
+                    <i class="fas fa-moon"></i>
+                </button>
+            </div>
+        </nav>
+    </header>
+    <!-- ==================== HERO SECTION ==================== -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    Hi, I'm <span class="typing">Front-End Developer</span>
+                </h1>
+                <p class="hero-subtitle">
+                    Crafting beautiful, responsive, and user-friendly web experiences with modern technologies.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">
+                        <i class="fas fa-handshake"></i> Hire Me
+                    </a>
+                    <a href="#" class="btn btn-secondary" download>
+                        <i class="fas fa-download"></i> Download CV
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="profile-img">
+                    <i class="fas fa-user"></i> 
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== ABOUT SECTION ==================== -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I'm a passionate Front-End Developer with a strong focus on creating intuitive and engaging user interfaces. 
+                        With expertise in HTML, CSS, and JavaScript, I build responsive websites that work seamlessly across all devices.
+                    </p>
+                    <p>
+                        My journey in web development has been driven by a love for clean code, modern design principles, and solving real-world problems. 
+                        I'm constantly learning new technologies and best practices to stay ahead in this fast-paced industry.
+                    </p>
+                    <div class="about-info">
+                        <div class="info-item">
+                            <span class="label">Email:</span>
+                            <span class="value">alkhwly@example.com</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="label">Location:</span>
+                            <span class="value">Cairo, Egypt</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="label">Experience:</span>
+                            <span class="value">3+ Years</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="about-img-placeholder">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== SKILLS SECTION ==================== -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Expertise</h2>
+            <div class="skills-grid">
+                <!-- Skill 1 -->
+                <div class="skill-card">
+                    <h3>HTML5</h3>
+                    <p>Semantic and accessible markup</p>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 95%;"></div>
+                    </div>
+                    <span class="percentage">95%</span>
+                </div>
+
+                <!-- Skill 2 -->
+                <div class="skill-card">
+                    <h3>CSS3</h3>
+                    <p>Modern styling and animations</p>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 92%;"></div>
+                    </div>
+                    <span class="percentage">92%</span>
+                </div>
+
+                <!-- Skill 3 -->
+                <div class="skill-card">
+                    <h3>JavaScript</h3>
+                    <p>ES6+, DOM manipulation, APIs</p>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 88%;"></div>
+                    </div>
+                    <span class="percentage">88%</span>
+                </div>
+
+                <!-- Skill 4 -->
+                <div class="skill-card">
+                    <h3>React</h3>
+                    <p>Components, hooks, state management</p>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 85%;"></div>
+                    </div>
+                    <span class="percentage">85%</span>
+                </div>
+
+                <!-- Skill 5 -->
+                <div class="skill-card">
+                    <h3>Responsive Design</h3>
+                    <p>Mobile-first, Flexbox, Grid</p>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 90%;"></div>
+                    </div>
+                    <span class="percentage">90%</span>
+                </div>
+
+                <!-- Skill 6 -->
+                <div class="skill-card">
+                    <h3>UI/UX Design</h3>
+                    <p>Figma, Design systems, Prototyping</p>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 80%;"></div>
+                    </div>
+                    <span class="percentage">80%</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== SERVICES SECTION ==================== -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">Services</h2>
+            <div class="services-grid">
+                <!-- Service 1 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <h3>Web Design</h3>
+                    <p>
+                        Creating stunning, modern web designs that capture your brand's essence and engage your audience with beautiful visual elements.
+                    </p>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Responsive Design</h3>
+                    <p>
+                        Building websites that look perfect on all devices, from desktop to mobile, ensuring seamless user experience everywhere.
+                    </p>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>UI Development</h3>
+                    <p>
+                        Developing interactive user interfaces with clean, maintainable code using modern frameworks and best practices.
+                    </p>
+                </div>
+
+                <!-- Service 4 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <h3>Performance Optimization</h3>
+                    <p>
+                        Optimizing websites for speed and performance, ensuring fast load times and smooth user interactions.
+                    </p>
+                </div>
+
+                <!-- Service 5 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <h3>SEO Optimization</h3>
+                    <p>
+                        Implementing SEO best practices to improve search rankings and increase organic traffic to your website.
+                    </p>
+                </div>
+
+                <!-- Service 6 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <h3>Maintenance & Support</h3>
+                    <p>
+                        Providing ongoing maintenance, updates, and technical support to keep your website running smoothly.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== PROJECTS SECTION ==================== -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="./image/download.jfif" alt="E-Commerce Platform">
+                        <div class="project-overlay">
+                            <a href="https://alkhwlyhasan777-coder.github.io/New-Vista/" class="project-btn" target="_blank" rel="noopener noreferrer">
+                                <!-- Live Demo -->
+                                <i class="fas  fa-external-link-alt"></i> ...
+                            </a>
+                            <a href="https://github.com/alkhwlyhasan777-coder/New-Vista" class="project-btn" target="_blank" rel="noopener noreferrer">
+                                <i class="fa-brands fa-github"></i>...
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>    New Vista</h3>
+                        <p>A fully responsive e-commerce website built with HTML, CSS, and JavaScript featuring shopping cart functionality.</p>
+                        <div class="project-tags">
+                            <span class="tag">HTML5</span>
+                            <span class="tag">CSS3</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="./image/Best-Task-Management-App-–-Keep-Your-Business-On-Track.webp" alt="E-Commerce Platform">
+                        <div class="project-overlay">
+                            <a href="https://alkhwlyhasan777-coder.github.io/edit--crud/" target="_blank" rel="noopener noreferrer" class="project-btn" >
+                                <!-- Live Demo -->
+                                <i class="fas  fa-external-link-alt"></i> ...
+                            </a>
+                            <a href="https://github.com/alkhwlyhasan777-coder/edit--crud/settings/pages" class="project-btn" target="_blank" rel="noopener noreferrer">
+                                <i class="fa-brands fa-github"></i>...
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Task Manager App</h3>
+                        <p>A productivity app that helps users organize their daily tasks with local storage for data persistence.</p>
+                        <div class="project-tags">
+                            <span class="tag">React</span>
+                            <span class="tag">localStorage</span>
+                            <span class="tag">Responsive</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="./image/images.jfif" alt="Weather Dashboard">
+                        <div class="project-overlay">
+                            <a href="#" class="project-btn" target="_blank" rel="noopener noreferrer">
+                                <!-- Live Demo -->
+                                <i class="fas  fa-external-link-alt"></i> ...
+                            </a>
+                            <a href="#" class="project-btn" target="_blank" rel="noopener noreferrer">
+                                <i class="fa-brands fa-github"></i>...
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Weather Dashboard</h3>
+                        <p>Interactive weather dashboard using APIs to fetch real-time weather data with beautiful visualizations.</p>
+                        <div class="project-tags">
+                            <span class="tag">API Integration</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">Charts</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="./image/images (1).jfif" alt="Portfolio Website">
+                        <div class="project-overlay">
+                            <a href="https://alkhwlyhasan777-coder.github.io/portfolio11/" class="project-btn" target="_blank" rel="noopener noreferrer">
+                                <!-- Live Demo -->
+                                <i class="fas  fa-external-link-alt"></i> ...
+                            </a>
+                            <a href="https://github.com/alkhwlyhasan777-coder/portfolio11" class="project-btn" target="_blank" rel="noopener noreferrer">
+                                <i class="fa-brands fa-github"></i>...
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Portfolio Website</h3>
+                        <p>Modern, responsive portfolio website showcasing projects and skills with smooth animations and interactions.</p>
+                        <div class="project-tags">
+                            <span class="tag">HTML5</span>
+                            <span class="tag">CSS3</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 5 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="./image/images.png" alt="Social Media Feed">
+                        <div class="project-overlay">
+                            <a href="https://alkhwlyhasan777-coder.github.io/edit--crud/" target="_blank" rel="noopener noreferrer" class="project-btn" >
+                                <!-- Live Demo -->
+                                <i class="fas  fa-external-link-alt"></i> ...
+                            </a>
+                            <a href="https://github.com/alkhwlyhasan777-coder/edit--crud/settings/pages" class="project-btn" target="_blank" rel="noopener noreferrer">
+                                <i class="fa-brands fa-github"></i>...
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3> Crud </h3>
+                        <p>
+                            CRUD (Create, Read, Update, Delete) web application
+                            The application allows users to efficiently manage data through a clean .
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">React</span>
+                            <span class="tag">Real-time</span>
+                            <span class="tag">API</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 6 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="./image/download (1).jfif" alt="Music Player">
+                        <div class="project-overlay">
+                            <a href="https://alkhwlyhasan777-coder.github.io/Devin/" class="project-btn" target="_blank" rel="noopener noreferrer">
+                                <!-- Live Demo -->
+                                <i class="fas  fa-external-link-alt"></i> ...
+                            </a>
+                            <a href="https://github.com/alkhwlyhasan777-coder?tab=repositories" class="project-btn" target="_blank" rel="noopener noreferrer">
+                                <i class="fa-brands fa-github"></i>...
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Devin</h3>
+                        <p>A fully responsive e-commerce website built with HTML, CSS, and JavaScript featuring shopping cart functionality.</p>
+                        <div class="project-tags">
+                            <span class="tag">HTML5</span>
+                            <span class="tag">CSS3</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== ACCORDION SECTION ==================== -->
+    <section id="accordion" class="accordion-section">
+        <div class="container">
+            <h2 class="section-title">Experience & Education</h2>
+            
+            <div class="accordion-container">
+                <!-- Experience Item 1 -->
+                <div class="accordion-item">
+                    <div class="accordion-header" data-accordion="experience-1">
+                        <div class="accordion-title">
+                            <i class="fas fa-briefcase"></i>
+                            <span>Senior Front-End Developer at TechCorp</span>
+                        </div>
+                        <i class="fas fa-chevron-down accordion-icon"></i>
+                    </div>
+                    <div class="accordion-body" id="experience-1">
+                        <div class="accordion-content">
+                            <p><strong>2023 - Present</strong></p>
+                            <p>
+                                Leading the front-end team in developing modern web applications using React and Vue.js. 
+                                Responsible for code reviews, mentoring junior developers, and implementing UI best practices.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Experience Item 2 -->
+                <div class="accordion-item">
+                    <div class="accordion-header" data-accordion="experience-2">
+                        <div class="accordion-title">
+                            <i class="fas fa-briefcase"></i>
+                            <span>Front-End Developer at WebStudio</span>
+                        </div>
+                        <i class="fas fa-chevron-down accordion-icon"></i>
+                    </div>
+                    <div class="accordion-body" id="experience-2">
+                        <div class="accordion-content">
+                            <p><strong>2021 - 2023</strong></p>
+                            <p>
+                                Developed responsive websites for various clients using HTML, CSS, and JavaScript. 
+                                Collaborated with designers and backend developers to create seamless user experiences.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Experience Item 3 -->
+                <div class="accordion-item">
+                    <div class="accordion-header" data-accordion="experience-3">
+                        <div class="accordion-title">
+                            <i class="fas fa-briefcase"></i>
+                            <span>Freelance Web Developer</span>
+                        </div>
+                        <i class="fas fa-chevron-down accordion-icon"></i>
+                    </div>
+                    <div class="accordion-body" id="experience-3">
+                        <div class="accordion-content">
+                            <p><strong>2020 - 2021</strong></p>
+                            <p>
+                                Built custom websites for small businesses and startups. 
+                                Managed projects from concept to deployment, ensuring client satisfaction and quality standards.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Education Item 1 -->
+                <div class="accordion-item">
+                    <div class="accordion-header" data-accordion="education-1">
+                        <div class="accordion-title">
+                            <i class="fas fa-graduation-cap"></i>
+                            <span>Bachelor's Degree in Computer Science</span>
+                        </div>
+                        <i class="fas fa-chevron-down accordion-icon"></i>
+                    </div>
+                    <div class="accordion-body" id="education-1">
+                        <div class="accordion-content">
+                            <p><strong>Cairo University</strong> - Graduated 2020</p>
+                            <p>
+                                Completed comprehensive computer science program with focus on web development and software engineering. 
+                                Maintained a strong GPA and participated in various coding competitions.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Education Item 2 -->
+                <div class="accordion-item">
+                    <div class="accordion-header" data-accordion="education-2">
+                        <div class="accordion-title">
+                            <i class="fas fa-graduation-cap"></i>
+                            <span>Advanced React & JavaScript Certification</span>
+                        </div>
+                        <i class="fas fa-chevron-down accordion-icon"></i>
+                    </div>
+                    <div class="accordion-body" id="education-2">
+                        <div class="accordion-content">
+                            <p><strong>Udemy & Coursera</strong> - Completed 2022</p>
+                            <p>
+                                Completed multiple advanced courses on React, JavaScript ES6+, and modern web development practices. 
+                                Built several projects to apply and reinforce the learning.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 1 -->
+                <div class="accordion-item">
+                    <div class="accordion-header" data-accordion="faq-1">
+                        <div class="accordion-title">
+                            <i class="fas fa-question-circle"></i>
+                            <span>What technologies do you specialize in?</span>
+                        </div>
+                        <i class="fas fa-chevron-down accordion-icon"></i>
+                    </div>
+                    <div class="accordion-body" id="faq-1">
+                        <div class="accordion-content">
+                            <p>
+                                I specialize in HTML5, CSS3, JavaScript (ES6+), React, Vue.js, and responsive design. 
+                                I also have experience with API integration, performance optimization, and modern development tools.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 2 -->
+                <div class="accordion-item">
+                    <div class="accordion-header" data-accordion="faq-2">
+                        <div class="accordion-title">
+                            <i class="fas fa-question-circle"></i>
+                            <span>What's your typical project timeline?</span>
+                        </div>
+                        <i class="fas fa-chevron-down accordion-icon"></i>
+                    </div>
+                    <div class="accordion-body" id="faq-2">
+                        <div class="accordion-content">
+                            <p>
+                                Project timelines vary based on complexity and scope. Simple websites typically take 2-4 weeks, 
+                                while more complex applications may take 6-12 weeks. I provide detailed estimates after initial consultation.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== CONTACT SECTION ==================== -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's Connect</h3>
+                    <p>
+                        Have a project in mind or just want to say hello? Feel free to reach out. 
+                        I'm always open to new opportunities and interesting projects.
+                    </p>
+
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-detail">
+                                <h4>Email</h4>
+                                <a href="mailto:alkhwly@example.com">alkhwlyhasan777@gmail.com</a>
+                            </div>
+                        </div>
+
+                        <div class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-detail">
+                                <h4>Phone</h4>
+                                <a href="tel:+201234567890">+20 01127846533</a>
+                            </div>
+                        </div>
+
+                        <div class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-detail">
+                                <h4>Location</h4>
+                                <p>Cairo, Egypt</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="#" class="social-link" title="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="#" class="social-link" title="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="#" class="social-link" title="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="social-link" title="CodePen">
+                            <i class="fab fa-codepen"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input 
+                            type="text" 
+                            id="name" 
+                            name="name" 
+                            placeholder="John Doe" 
+                            required
+                        >
+                        <span class="error-message" id="nameError"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input 
+                            type="email" 
+                            id="email" 
+                            name="email" 
+                            placeholder="john@example.com" 
+                            required
+                        >
+                        <span class="error-message" id="emailError"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input 
+                            type="text" 
+                            id="subject" 
+                            name="subject" 
+                            placeholder="Project Inquiry" 
+                            required
+                        >
+                        <span class="error-message" id="subjectError"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea 
+                            id="message" 
+                            name="message" 
+                            placeholder="Tell me about your project..." 
+                            rows="5" 
+                            required
+                        ></textarea>
+                        <span class="error-message" id="messageError"></span>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">
+                        <i class="fas fa-paper-plane"></i> Send Message
+                    </button>
+
+                    <div class="form-message" id="formMessage"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#services">Web Design</a></li>
+                        <li><a href="#services">Development</a></li>
+                        <li><a href="#services">Optimization</a></li>
+                        <li><a href="#services">Support</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Follow Me</h4>
+                    <div class="footer-socials">
+                        <a href="#" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" title="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" title="CodePen"><i class="fab fa-codepen"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 Al-Khwlyhasan. All rights reserved.</p>
+                <p>Designed & Developed with <i class="fas fa-heart"></i> by Al-Khwly</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ==================== SCROLL TO TOP BUTTON ==================== -->
+    <button class="scroll-to-top" id="scrollToTop" title="pp">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- ==================== SCRIPTS ==================== -->
+    <script src="./javascript/main.js"></script>
+    <script src="./javascript/main-dark.js"></script>
+</body>
+</html>
