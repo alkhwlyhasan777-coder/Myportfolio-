@@ -290,6 +290,8 @@ p {
     justify-content: center;
     align-items: center;
 }
+
+
 .profile-img {
     width: 260px;
     height: 300px;
@@ -297,7 +299,6 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding:px;
     overflow: hidden;
 
     border-radius: 50%;
@@ -310,8 +311,41 @@ p {
         0 10px 30px rgba(0, 0, 0, 0.2),
         0 0 25px rgba(255, 255, 255, 0.1);
 
-    animation: slideInRight 0.8s ease-out;
     transition: all 0.4s ease;
+}
+
+.profile-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+@media (max-width: 992px) {
+    .profile-img {
+        width: 220px;
+        height: 220px;
+        margin: 0 auto;
+    }
+}
+@media (max-width: 768px) {
+    .profile-img {
+        width: 180px;
+        height: 180px;
+        margin: 30px auto;
+    }
+}
+@media (max-width: 400px) {
+    .profile-img {
+        width: 130px;
+        height: 130px;
+    }
+}
+@media (max-width: 768px) {
+    .hero-content {
+        flex-direction: column;
+        text-align: center;
+        gap: 2rem;
+    }
 }
 
 /* Hover Effect */
@@ -320,16 +354,6 @@ p {
     box-shadow:
         0 15px 40px rgba(0, 0, 0, 0.3),
         0 0 35px rgba(255, 255, 255, 0.15);
-}
-
-/* Image */
-.profile-img img {
-    width: 255px;
-    padding:1px;
-    object-fit: cover;
-
-    border-radius: 50%;
-    transition: transform 0.4s ease;
 }
 
 /* Zoom image on hover */
